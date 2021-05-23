@@ -1,0 +1,62 @@
+.signin
+{
+   height: 250px;
+   width: 300px;
+
+    background-color: rgba(0, 0, 0, 0.719);
+    padding: 20px 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_form
+{
+
+ 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+ 
+}
+.sign_form h2
+{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.sign_form input
+{
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.sign_form input:focus
+{
+    outline: none;
+}
+.sign_form button
+{
+    background-color: #F40612;
+    border: none;
+    padding: 10px 20px;
+    margin-top:10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.sign_form > h5{
+color: gray;
+margin-top: 10px;
+}
+.sign_form > h5 > span
+{
+    color: white;
+    cursor: pointer;
+}
+.sign_form > h5 > span:hover
+{
+   text-decoration: underline;
+}

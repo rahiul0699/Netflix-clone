@@ -1,0 +1,51 @@
+.Plans
+{
+    padding: 10px;
+  
+}
+.Plans h3
+
+{
+    color: white;
+    margin-bottom: 10px;
+}
+.plan
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.74);
+    opacity: 0.8;
+}
+.plan:hover
+{
+    opacity: 1;
+}
+.plan p
+{
+font-size: 10px;
+}
+.plan button
+{
+    padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.74);
+
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+.plan .subscribe
+{
+    
+    background-color: #E50914;
+    
+}
+.plan button:focus
+{
+    outline: none;
+}
+.currentPlan
+{
+    background-color: gray;
+}
